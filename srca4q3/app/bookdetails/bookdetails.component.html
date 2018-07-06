@@ -1,0 +1,18 @@
+<h3>Book Details</h3>
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Author</th>
+    <th>No Of Pages </th>
+  </tr>
+  
+  
+<tr *ngFor="let book of books">
+<td>{{book.name}}</td>
+<td>{{book.price}}</td>
+<td>{{book.author}}</td>
+<td>{{book.noofpages}}</td>
+</tr>
+
+</table>
